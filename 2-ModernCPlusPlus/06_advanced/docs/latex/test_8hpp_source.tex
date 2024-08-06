@@ -1,0 +1,51 @@
+\doxysection{test.\+hpp}
+\hypertarget{test_8hpp_source}{}\label{test_8hpp_source}\index{/home/abdallah/Documents/Github/ModernCPlusPlus/06\_advanced/smart\_pointer/test.hpp@{/home/abdallah/Documents/Github/ModernCPlusPlus/06\_advanced/smart\_pointer/test.hpp}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ CLASS\_HPP\_}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ CLASS\_HPP\_}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ <memory>}}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classInteger}{Integer}}}
+\DoxyCodeLine{00010\ \{}
+\DoxyCodeLine{00011\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00012\ \ \ \ \ \textcolor{comment}{//\ default\ constructor}}
+\DoxyCodeLine{00013\ \ \ \ \ \mbox{\hyperlink{classInteger}{Integer}}();}
+\DoxyCodeLine{00014\ \ \ \ \ \textcolor{comment}{//\ parametarize\ constructor}}
+\DoxyCodeLine{00015\ \ \ \ \ \mbox{\hyperlink{classInteger}{Integer}}(\textcolor{keywordtype}{int}\ value);}
+\DoxyCodeLine{00016\ \ \ \ \ \textcolor{comment}{//\ copy\ constructor}}
+\DoxyCodeLine{00017\ \ \ \ \ \mbox{\hyperlink{classInteger}{Integer}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{classInteger}{Integer}}\ \&obj);}
+\DoxyCodeLine{00018\ \ \ \ \ \textcolor{comment}{//\ Move\ constructor}}
+\DoxyCodeLine{00019\ \ \ \ \ \mbox{\hyperlink{classInteger}{Integer}}(\mbox{\hyperlink{classInteger}{Integer}}\ \&\&obj);}
+\DoxyCodeLine{00020\ \ \ \ \ \textcolor{comment}{//\ copy\ assignment\ constructor}}
+\DoxyCodeLine{00021\ \ \ \ \ \mbox{\hyperlink{classInteger}{Integer}}\ \&operator=(\textcolor{keyword}{const}\ \mbox{\hyperlink{classInteger}{Integer}}\ \&obj);}
+\DoxyCodeLine{00022\ \ \ \ \ \textcolor{comment}{//\ move\ assignment\ constructor}}
+\DoxyCodeLine{00023\ \ \ \ \ \mbox{\hyperlink{classInteger}{Integer}}\ \&operator=(\mbox{\hyperlink{classInteger}{Integer}}\ \&\&obj);}
+\DoxyCodeLine{00024\ \ \ \ \ \mbox{\hyperlink{classInteger}{Integer}}\ \&operator+(\textcolor{keyword}{const}\ \mbox{\hyperlink{classInteger}{Integer}}\ \&obj);}
+\DoxyCodeLine{00025\ \ \ \ \ \mbox{\hyperlink{classInteger}{Integer}}\ \&operator++();\ \ \ \ \textcolor{comment}{//\ pre\ increment}}
+\DoxyCodeLine{00026\ \ \ \ \ \mbox{\hyperlink{classInteger}{Integer}}\ operator++(\textcolor{keywordtype}{int});\ \textcolor{comment}{//\ post\ increment}}
+\DoxyCodeLine{00027\ \ \ \ \ \textcolor{keyword}{explicit}\ \textcolor{keyword}{operator}\ int();}
+\DoxyCodeLine{00028\ \ \ \ \ \textcolor{keyword}{friend}\ std::istream\ \&operator>>(std::istream\ \&input,\ \mbox{\hyperlink{classInteger}{Integer}}\ \&ref);}
+\DoxyCodeLine{00029\ \ \ \ \ \textcolor{keywordtype}{int}\ GetValue(\textcolor{keywordtype}{void})\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keywordtype}{void}\ SetValue(\textcolor{keywordtype}{int}\ value);}
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00032\ \ \ \ \ \textcolor{comment}{//\ Destructor}}
+\DoxyCodeLine{00033\ \ \ \ \ \mbox{\hyperlink{classInteger}{\string~Integer}}();}
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00035\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00036\ \ \ \ \ \textcolor{keywordtype}{int}\ *m\_ptr;}
+\DoxyCodeLine{00037\ \};}
+\DoxyCodeLine{00038\ }
+\DoxyCodeLine{00039\ \textcolor{keywordtype}{void}\ raw\_pointer(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{00040\ \textcolor{keywordtype}{void}\ stduniqueptr(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{00041\ \textcolor{keywordtype}{void}\ sharingptr(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{00042\ \textcolor{keywordtype}{void}\ weakptr(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{00043\ \textcolor{keywordtype}{void}\ Deleter(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{00044\ \textcolor{keywordtype}{void}\ Make\_Functions(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{00045\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

@@ -1,0 +1,48 @@
+Parent process waiting for command.
+Child process started.
+Child process received command: POST /api HTTP/1.1
+user-agent: apitester.org Android/7.5(641)
+accept: */*
+Content-Type: application/json
+Content-Length: 61
+Host: 192.168.1.2:8080
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{
+	"name": "Abdallah",
+	"Id": "0",
+	"command": "calculator"
+}
+Parent process waiting for command.
+Child process started.
+Child process received command: POST /api HTTP/1.1
+user-agent: apitester.org Android/7.5(641)
+accept: */*
+Content-Type: application/json
+Content-Length: 61
+Host: 192.168.1.2:8080
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{
+	"name": "Abdallah",
+	"Id": "0",
+	"command": "calculator"
+}
+Parent process waiting for command.
+Child process started.
+Child process received command: POST /api HTTP/1.1
+user-agent: apitester.org Android/7.5(641)
+accept: */*
+Content-Type: application/json
+Content-Length: 61
+Host: 192.168.1.2:8080
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+{
+	"name": "Abdallah",
+	"Id": "0",
+	"command": "disk_usage"
+}
