@@ -24,12 +24,12 @@ void handle_http_request(int client_socket)
     std::cout << "Received from client:" << std::endl;
     std::cout << buffer << std::endl;
 
-        // Prepare JSON data
+    // Prepare JSON data
     nlohmann::json j;
     j["Owner"] = "abdallah";
     j["Id"] = "0";
     j["Command"] = "system_uptime";
-    j["connection_status"] = "RECEIVE";
+    j["connection_status"] = "5_1_introduction 5_2_Discovering 5_3_Discovering2 5_4_bringup 5_5_bringup2 5_6_IOT 5_7_advanced";
 
     // Convert JSON object to string
     std::string json_data = j.dump();

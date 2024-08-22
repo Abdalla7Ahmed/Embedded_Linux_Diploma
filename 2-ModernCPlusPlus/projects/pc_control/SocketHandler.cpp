@@ -87,7 +87,7 @@ void SocketHandler::Send_Json(int client_socket, std::string json_data)
     }
     else
     {
-        std::cout << "JSON data sent successfully" << std::endl;
+        std::cout << json_data << std::endl;
     }
 }
 
@@ -110,7 +110,7 @@ void SocketHandler::Receive_Json(int client_socket, char *buffer, size_t buffer_
     }
 
     // std::cout << "Received request:" << std::endl;
-    // std::cout << buffer << std::endl;
+    std::cout << buffer << std::endl;
 
     std::string connection_Type = m_parser.ReturnConnectionType(buffer);
     if (connection_Type == "GET")

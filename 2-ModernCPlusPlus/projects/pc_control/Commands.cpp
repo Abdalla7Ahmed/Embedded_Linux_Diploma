@@ -76,12 +76,25 @@ Commands::Commands()
     m_OpenDirCommands["Rust"] = "xdg-open /home/abdallah/Documents/Embedded_Linux_Diploma/08_Rust_Programming";
 
     // open video Commands
+    // 3 Linux
     m_OpenVideoCommands["3_1_Introduction"] = "sh -c 'vlc $(find /home/abdallah/Documents/Embedded_Linux_Diploma/03Linux/01_Introduction -type f \\( -name \"*.mp4\" -o -name \"*.mkv\" -o -name \"*.avi\" \\) | head -n 1)' > /dev/null 2>&1 &";
     m_OpenVideoCommands["3_2init_process"] = "sh -c 'vlc $(find /home/abdallah/Documents/Embedded_Linux_Diploma/03Linux/02_initProcess -type f \\( -name \"*.mp4\" -o -name \"*.mkv\" -o -name \"*.avi\" \\) | head -n 1)' > /dev/null 2>&1 &";
     m_OpenVideoCommands["3_3_shell"] = "sh -c 'vlc $(find /home/abdallah/Documents/Embedded_Linux_Diploma/03Linux/03_shell -type f \\( -name \"*.mp4\" -o -name \"*.mkv\" -o -name \"*.avi\" \\) | head -n 1)' > /dev/null 2>&1 &";
     m_OpenVideoCommands["3_4_commands"] = "sh -c 'vlc $(find /home/abdallah/Documents/Embedded_Linux_Diploma/03Linux/04_commands -type f \\( -name \"*.mp4\" -o -name \"*.mkv\" -o -name \"*.avi\" \\) | head -n 1)' > /dev/null 2>&1 &";
     m_OpenVideoCommands["3_5_commands_P2"] = "sh -c 'vlc $(find /home/abdallah/Documents/Embedded_Linux_Diploma/03Linux/05_commands_P2 -type f \\( -name \"*.mp4\" -o -name \"*.mkv\" -o -name \"*.avi\" \\) | head -n 1)' > /dev/null 2>&1 &";
     m_OpenVideoCommands["3_6_process_user"] = "sh -c 'vlc $(find /home/abdallah/Documents/Embedded_Linux_Diploma/03Linux/06_process_user -type f \\( -name \"*.mp4\" -o -name \"*.mkv\" -o -name \"*.avi\" \\) | head -n 1)' > /dev/null 2>&1 &";
+    // 4 bash
+    m_OpenVideoCommands["4_1_Introduction"] = "sh -c 'vlc $(find /home/abdallah/Documents/Embedded_Linux_Diploma/04Bash/01_Introduction -type f \\( -name \"*.mp4\" -o -name \"*.mkv\" -o -name \"*.avi\" \\) | head -n 1)' > /dev/null 2>&1 &";
+    m_OpenVideoCommands["4_2_function_string_SV"] = "sh -c 'vlc $(find /home/abdallah/Documents/Embedded_Linux_Diploma/04Bash/02_function_string_SV -type f \\( -name \"*.mp4\" -o -name \"*.mkv\" -o -name \"*.avi\" \\) | head -n 1)' > /dev/null 2>&1 &";
+    m_OpenVideoCommands["4_3_array_getopt_sd"] = "sh -c 'vlc $(find /home/abdallah/Documents/Embedded_Linux_Diploma/04Bash/03_array_getopt_sd -type f \\( -name \"*.mp4\" -o -name \"*.mkv\" -o -name \"*.avi\" \\) | head -n 1)' > /dev/null 2>&1 &";
+    // 5 raspberrypi
+    m_OpenVideoCommands["5_1_introduction"] = "sh -c 'vlc $(find /home/abdallah/Documents/Embedded_Linux_Diploma/05_Raspberrypi/01_introduction -type f \\( -name \"*.mp4\" -o -name \"*.mkv\" -o -name \"*.avi\" \\) | head -n 1)' > /dev/null 2>&1 &";
+    m_OpenVideoCommands["5_2_Discovering"] = "sh -c 'vlc $(find /home/abdallah/Documents/Embedded_Linux_Diploma/05_Raspberrypi/02_Discovering -type f \\( -name \"*.mp4\" -o -name \"*.mkv\" -o -name \"*.avi\" \\) | head -n 1)' > /dev/null 2>&1 &";
+    m_OpenVideoCommands["5_3_Discovering2"] = "sh -c 'vlc $(find /home/abdallah/Documents/Embedded_Linux_Diploma/05_Raspberrypi/03_Discovering_part2 -type f \\( -name \"*.mp4\" -o -name \"*.mkv\" -o -name \"*.avi\" \\) | head -n 1)' > /dev/null 2>&1 &";
+    m_OpenVideoCommands["5_4_bringup"] = "sh -c 'vlc $(find /home/abdallah/Documents/Embedded_Linux_Diploma/05_Raspberrypi/04_bringup -type f \\( -name \"*.mp4\" -o -name \"*.mkv\" -o -name \"*.avi\" \\) | head -n 1)' > /dev/null 2>&1 &";
+    m_OpenVideoCommands["5_5_bringup2"] = "sh -c 'vlc $(find /home/abdallah/Documents/Embedded_Linux_Diploma/05_Raspberrypi/05_bringupP2 -type f \\( -name \"*.mp4\" -o -name \"*.mkv\" -o -name \"*.avi\" \\) | head -n 1)' > /dev/null 2>&1 &";
+    m_OpenVideoCommands["5_6_IOT"] = "sh -c 'vlc $(find /home/abdallah/Documents/Embedded_Linux_Diploma/05_Raspberrypi/06_IOT -type f \\( -name \"*.mp4\" -o -name \"*.mkv\" -o -name \"*.avi\" \\) | head -n 1)' > /dev/null 2>&1 &";
+    m_OpenVideoCommands["5_7_advanced"] = "sh -c 'vlc $(find /home/abdallah/Documents/Embedded_Linux_Diploma/05_Raspberrypi/07_advanced -type f \\( -name \"*.mp4\" -o -name \"*.mkv\" -o -name \"*.avi\" \\) | head -n 1)' > /dev/null 2>&1 &";
 
     // yocto
     m_YoctoCommands["runqemu"] = "terminator -e 'bash -c \"cd /home/abdallah/Documents/YOCTO && source /home/abdallah/Documents/YOCTO/poky/oe-init-build-env && runqemu qemuarm my-image nographic; exec bash\"' > /dev/null 2>&1 &";
