@@ -1,0 +1,20 @@
+Date: 23/3/2024
+Time: 21:35
+Phone Number: +201146396228
+Message: hi this is test string from python script
+--------------------
+Date: 23/3/2024
+Time: 21:37
+Phone Number: +201146396228
+Message: hi this is test string from python script
+--------------------
+Date: 23/3/2024
+Time: 21:40
+Phone Number: +201146396228
+Message: hi this is test string from python script
+--------------------
+Date: 23/3/2024
+Time: 21:42
+Phone Number: +201146396228
+Message: happy new year
+
