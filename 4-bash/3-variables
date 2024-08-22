@@ -1,0 +1,15 @@
+#!/bin/bash
+################### 3-variables #####################
+
+var1="Abdallah"
+var2="1234"
+var3=1234
+var4=$(date)
+#var5=`date`    #valid but not prefare to used
+
+echo "Welcome ${var1}"
+echo "${var2}567" #var2 is string
+echo "${var3}567" #var3 is string
+echo $((++var2))  #var3 is integer
+echo $((++var3))  #var3 is integer
+echo "${var4}"

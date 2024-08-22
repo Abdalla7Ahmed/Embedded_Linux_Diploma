@@ -1,0 +1,12 @@
+[Unit]
+Description=store date
+
+
+[Service]
+Type=simple
+User=abdallah
+ExecStart=/home/abdallah/Documents/Github/Embedded_Linux_Diploma/4-bash/hello.sh
+
+
+[Install]
+WantedBy=multi-user.target

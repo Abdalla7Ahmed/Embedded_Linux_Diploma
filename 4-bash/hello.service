@@ -1,0 +1,13 @@
+
+[Unit]
+Description=simple service to store date
+
+
+[Service]
+Type=simple
+ExecStart="/home/abdallah/Documents/Github/Embedded_Linux_Diploma/4-bash/hello.sh"
+
+
+[Install]
+WantedBy=multi-user.target
+
