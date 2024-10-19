@@ -61,9 +61,9 @@ while True:
     totalFingers = fingers.count(1)
     payload_json = json.dumps(fingers)
 
-    #publish.single("CoreElectronics/led_controle",payload_json, hostname="test.mosquitto.org")
-    #print("Done")
-    #print(f"the number is {totalFingers} fingers")
+    publish.single("test/message",payload_json, hostname="test.mosquitto.org")
+    print("Done")
+    print(f"the number is {totalFingers} fingers")
     h1,w1,c1 = overlayList[totalFingers].shape
     img[0:h1,0:w1] = overlayList[totalFingers]
     

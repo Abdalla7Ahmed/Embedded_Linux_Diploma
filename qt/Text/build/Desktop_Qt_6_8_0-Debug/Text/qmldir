@@ -1,0 +1,5 @@
+module Text
+typeinfo appText.qmltypes
+prefer :/qt/qml/Text/
+Main 1.0 Main.qml
+

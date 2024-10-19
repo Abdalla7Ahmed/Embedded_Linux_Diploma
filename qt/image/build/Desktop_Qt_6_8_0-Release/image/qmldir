@@ -1,0 +1,5 @@
+module image
+typeinfo appimage.qmltypes
+prefer :/qt/qml/image/
+Main 1.0 Main.qml
+

@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appimage_FILE /home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/image/build/Desktop_Qt_6_8_0-Debug/appimage)
+set(__QT_DEPLOY_TARGET_appimage_TYPE EXECUTABLE)

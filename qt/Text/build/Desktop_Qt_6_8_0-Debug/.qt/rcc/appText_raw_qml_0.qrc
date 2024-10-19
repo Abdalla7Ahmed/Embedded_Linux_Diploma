@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/Text/">
+    <file alias="Main.qml">/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/Text/Main.qml</file>
+  </qresource>
+</RCC>
+

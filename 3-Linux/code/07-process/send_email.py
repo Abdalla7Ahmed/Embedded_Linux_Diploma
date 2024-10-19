@@ -46,7 +46,7 @@ def sendEmail(smtpHost, smtpPort, mailUname, mailPwd, fromEmail, mailSubject, ma
 smtpHost = "smtp.gmail.com"
 smtpPort = 587
 mailUname = 'abdallahahmed17120@gmail.com'
-mailPwd = 'gteanowtpsofqywn'
+mailPwd = 'tuax ixzo svrp buiq '
 fromEmail = 'abdallahahmed17120@gmail.com'
 
 uptiem = datetime.datetime.now();

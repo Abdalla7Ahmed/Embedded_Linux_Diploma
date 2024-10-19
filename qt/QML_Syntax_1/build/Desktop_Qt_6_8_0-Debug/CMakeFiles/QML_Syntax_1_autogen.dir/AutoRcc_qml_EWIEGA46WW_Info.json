@@ -1,0 +1,25 @@
+{
+	"BUILD_DIR" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/QML_Syntax_1/build/Desktop_Qt_6_8_0-Debug/QML_Syntax_1_autogen",
+	"CMAKE_BINARY_DIR" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/QML_Syntax_1/build/Desktop_Qt_6_8_0-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/QML_Syntax_1/build/Desktop_Qt_6_8_0-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/QML_Syntax_1",
+	"CMAKE_SOURCE_DIR" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/QML_Syntax_1",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/QML_Syntax_1/build/Desktop_Qt_6_8_0-Debug/QML_Syntax_1_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/QML_Syntax_1/main.qml"
+	],
+	"LOCK_FILE" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/QML_Syntax_1/build/Desktop_Qt_6_8_0-Debug/CMakeFiles/QML_Syntax_1_autogen.dir/AutoRcc_qml_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "qml" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_qml.cpp",
+	"RCC_EXECUTABLE" : "/home/abdallah/Qt/6.8.0/gcc_64/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/QML_Syntax_1/build/Desktop_Qt_6_8_0-Debug/CMakeFiles/QML_Syntax_1_autogen.dir/AutoRcc_qml_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/QML_Syntax_1/qml.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,12 @@
+--bare
+-I
+/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/Text/build/Desktop_Qt_6_8_0-Debug
+-I
+/home/abdallah/Qt/6.8.0/gcc_64/qml
+--resource
+/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/Text/build/Desktop_Qt_6_8_0-Debug/.qt/rcc/qmake_Text.qrc
+--resource
+/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/Text/build/Desktop_Qt_6_8_0-Debug/.qt/rcc/appText_raw_qml_0.qrc
+/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/Text/Main.qml
+--json
+/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/Text/build/Desktop_Qt_6_8_0-Debug/appText_qmllint.json

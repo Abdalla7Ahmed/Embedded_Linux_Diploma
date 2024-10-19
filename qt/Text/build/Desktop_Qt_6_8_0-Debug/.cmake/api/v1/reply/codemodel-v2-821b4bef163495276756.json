@@ -1,0 +1,178 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-bbc69c68b39096fd59df.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Text",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-949cac1d7fd6065fc80e.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-c5aa26bff612354e696c.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-3329898109224b56ff58.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-610974dd12a4686d2e3c.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-6b4745155728f7e5a649.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appText::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appText-Debug-02330ea38d5cf4cb1eb6.json",
+					"name" : "appText",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appText_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appText_autogen-Debug-9a47329aedf45b387a75.json",
+					"name" : "appText_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appText_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appText_autogen_timestamp_deps-Debug-41e6888c47188f4f4a65.json",
+					"name" : "appText_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appText_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appText_qmlimportscan-Debug-ac4313b88b3c3628d3e0.json",
+					"name" : "appText_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appText_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appText_qmllint-Debug-c23609002968013e9503.json",
+					"name" : "appText_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appText_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appText_qmllint_json-Debug-5dcd432837b950c96a2d.json",
+					"name" : "appText_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appText_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appText_qmllint_module-Debug-18fc3a4436dc77baa301.json",
+					"name" : "appText_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appText_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appText_qmltyperegistration-Debug-872a3735a91cbbf50672.json",
+					"name" : "appText_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appText_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appText_tooling-Debug-aaef48a25390c8758beb.json",
+					"name" : "appText_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/Text/build/Desktop_Qt_6_8_0-Debug",
+		"source" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/Text"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

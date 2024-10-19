@@ -1,0 +1,1 @@
+savedcmd_/home/abdallah/Documents/Github/Embedded_Linux_Diploma/7-Device_Drivers/10-multiple_minor/my_module.o := ld -m elf_x86_64 -z noexecstack   -r -o /home/abdallah/Documents/Github/Embedded_Linux_Diploma/7-Device_Drivers/10-multiple_minor/my_module.o @/home/abdallah/Documents/Github/Embedded_Linux_Diploma/7-Device_Drivers/10-multiple_minor/my_module.mod 

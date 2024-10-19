@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_Widget_Application_FILE /home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/Widget_Application/build/Desktop_Qt_6_8_0-Debug/Widget_Application)
+set(__QT_DEPLOY_TARGET_Widget_Application_TYPE EXECUTABLE)

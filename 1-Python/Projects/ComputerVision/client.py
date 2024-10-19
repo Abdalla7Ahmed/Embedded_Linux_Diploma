@@ -19,29 +19,29 @@ def on_message(client, userdata, msg):
         if isinstance(payload_list, list):
             # Example of accessing the list safely
             if len(payload_list) > 1:  # Ensure the list has at least 2 elements
-                # if payload_list[0] == 1:
-                #     led_on(LED_PIN2)
-                # elif payload_list[0] == 0:
-                #     led_off(LED_PIN2)
+                if payload_list[0] == 1:
+                    led_on(LED_PIN2)
+                elif payload_list[0] == 0:
+                    led_off(LED_PIN2)
                 if payload_list[1] == 1:
                     led_on(LED_PIN3)
                 elif payload_list[1] == 0:
                     led_off(LED_PIN3)
         
-                # if payload_list[2] == 1:
-                #     led_on(LED_PIN4)
-                # elif payload_list[2] == 0:
-                #     led_off(LED_PIN4)
+                if payload_list[2] == 1:
+                    led_on(LED_PIN4)
+                elif payload_list[2] == 0:
+                    led_off(LED_PIN4)
         
-                # if payload_list[3] == 1:
-                #     led_on(LED_PIN17)
-                # elif payload_list[3] == 0:
-                #     led_off(LED_PIN17)
+                if payload_list[3] == 1:
+                    led_on(LED_PIN17)
+                elif payload_list[3] == 0:
+                    led_off(LED_PIN17)
         
-                # if payload_list[4] == 1:
-                #     led_on(LED_PIN27)
-                # elif payload_list[4] == 0:
-                #     led_off(LED_PIN27)      
+                if payload_list[4] == 1:
+                    led_on(LED_PIN27)
+                elif payload_list[4] == 0:
+                    led_off(LED_PIN27)      
             else:
                 print("The list is too short to access the second element.")
         

@@ -1,0 +1,178 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-cdf2213a554171745cc2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "image",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Release-185ff016fc384b54bf60.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Release-4050c4516e68fe794849.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Release-5d66c1383697b302679f.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Release-cd9386dde437088bfa31.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Release-81742207d91c2fc78758.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appimage::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appimage-Release-d7cc0f4b6dc1dce9a3eb.json",
+					"name" : "appimage",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appimage_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appimage_autogen-Release-801acdd61181b8c480ce.json",
+					"name" : "appimage_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appimage_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appimage_autogen_timestamp_deps-Release-a663d43b398f1619fd9f.json",
+					"name" : "appimage_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appimage_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appimage_qmlimportscan-Release-df42e91496d500f27439.json",
+					"name" : "appimage_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appimage_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appimage_qmllint-Release-4e104b036d0855ee3c51.json",
+					"name" : "appimage_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appimage_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appimage_qmllint_json-Release-0888bdd9f6b5cbece47e.json",
+					"name" : "appimage_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appimage_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appimage_qmllint_module-Release-30993e12ca2e0992a39e.json",
+					"name" : "appimage_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appimage_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appimage_qmltyperegistration-Release-9020119d9e5d353070c0.json",
+					"name" : "appimage_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appimage_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appimage_tooling-Release-a289169c77f03508e7ae.json",
+					"name" : "appimage_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/image/build/Desktop_Qt_6_8_0-Release",
+		"source" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/image"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

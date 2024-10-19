@@ -1,0 +1,1 @@
+savedcmd_/home/abdallah/Documents/Github/Embedded_Linux_Diploma/7-Device_Drivers/1-Hello_Kernel/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/abdallah/Documents/Github/Embedded_Linux_Diploma/7-Device_Drivers/1-Hello_Kernel/Module.symvers -T /home/abdallah/Documents/Github/Embedded_Linux_Diploma/7-Device_Drivers/1-Hello_Kernel/modules.order -i Module.symvers -e 

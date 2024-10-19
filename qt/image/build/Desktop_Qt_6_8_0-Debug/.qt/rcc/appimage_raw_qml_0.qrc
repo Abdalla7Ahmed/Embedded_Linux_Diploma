@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/qt/qml/image/">
+    <file alias="Main.qml">/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/image/Main.qml</file>
+    <file alias="assets/triangle_red.png">/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/image/assets/triangle_red.png</file>
+  </qresource>
+</RCC>
+

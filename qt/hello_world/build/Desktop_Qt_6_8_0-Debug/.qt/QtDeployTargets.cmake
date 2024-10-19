@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_hello_world_FILE /home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/hello_world/build/Desktop_Qt_6_8_0-Debug/hello_world)
+set(__QT_DEPLOY_TARGET_hello_world_TYPE EXECUTABLE)

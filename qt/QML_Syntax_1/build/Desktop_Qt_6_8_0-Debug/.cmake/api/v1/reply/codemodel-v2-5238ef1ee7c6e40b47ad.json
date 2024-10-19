@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-41ffb111bb87f41a74ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "QML_Syntax_1",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "QML_Syntax_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QML_Syntax_1-Debug-122703559d771edb7166.json",
+					"name" : "QML_Syntax_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QML_Syntax_1_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QML_Syntax_1_autogen-Debug-6d1f95843eba57f54e63.json",
+					"name" : "QML_Syntax_1_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QML_Syntax_1_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QML_Syntax_1_autogen_timestamp_deps-Debug-e6412962b2e91b881071.json",
+					"name" : "QML_Syntax_1_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QML_Syntax_1_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QML_Syntax_1_qmlimportscan-Debug-5529f65f92e8d6ea946b.json",
+					"name" : "QML_Syntax_1_qmlimportscan",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/QML_Syntax_1/build/Desktop_Qt_6_8_0-Debug",
+		"source" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/QML_Syntax_1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

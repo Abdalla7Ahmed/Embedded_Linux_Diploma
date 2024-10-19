@@ -1,0 +1,13 @@
+# ninja log v6
+3	16	1726300992326479882	.qt/qml_imports/QML_Syntax_1_build.cmake	77532f93b941d0f3
+3	16	1726300992326479882	/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/QML_Syntax_1/build/Desktop_Qt_6_8_0-Debug/.qt/qml_imports/QML_Syntax_1_build.cmake	77532f93b941d0f3
+16	50	1726300992353479792	QML_Syntax_1_autogen/timestamp	24bce76d6c4ee05
+16	50	1726300992353479792	QML_Syntax_1_autogen/mocs_compilation.cpp	24bce76d6c4ee05
+16	50	1726300992353479792	/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/QML_Syntax_1/build/Desktop_Qt_6_8_0-Debug/QML_Syntax_1_autogen/timestamp	24bce76d6c4ee05
+16	50	1726300992353479792	/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/QML_Syntax_1/build/Desktop_Qt_6_8_0-Debug/QML_Syntax_1_autogen/mocs_compilation.cpp	24bce76d6c4ee05
+51	57	1726300992366479749	QML_Syntax_1_autogen/EWIEGA46WW/qrc_qml.cpp	4e82adfcbf71178f
+51	57	1726300992366479749	/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/QML_Syntax_1/build/Desktop_Qt_6_8_0-Debug/QML_Syntax_1_autogen/EWIEGA46WW/qrc_qml.cpp	4e82adfcbf71178f
+57	85	1726300992367479745	CMakeFiles/QML_Syntax_1.dir/QML_Syntax_1_autogen/mocs_compilation.cpp.o	7cb62fc04a092870
+58	85	1726300992368479742	CMakeFiles/QML_Syntax_1.dir/QML_Syntax_1_autogen/EWIEGA46WW/qrc_qml.cpp.o	5bc389884821e902
+58	1698	1726300992368479742	CMakeFiles/QML_Syntax_1.dir/main.cpp.o	d8e8b51099c426d0
+1699	2010	1726300994009474355	QML_Syntax_1	37de7d56a0b467fe
