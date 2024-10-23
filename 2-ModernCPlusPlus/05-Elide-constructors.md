@@ -126,13 +126,17 @@ public:
     MyClass(MyClass&& other) { std::cout << "Move constructor called." << std::endl; }
 };
 
-void createMyClass(MyClass obj) {
+
+void createMyClass(const MyClass x)
+{
 }
 
 int main() {
-    MyClass obj = createMyClass();
+    MyClass obj;
+    createMyClass(obj);
     return 0;
 }
+
 ```
 
 ### Output with and without Copy Elision
