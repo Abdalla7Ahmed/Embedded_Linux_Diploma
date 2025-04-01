@@ -1,6 +1,7 @@
 #include <iostream>
 #include <algorithm>
 #include <numeric>
+#include <vector>
 
 int main(int argc, char **argv)
 {

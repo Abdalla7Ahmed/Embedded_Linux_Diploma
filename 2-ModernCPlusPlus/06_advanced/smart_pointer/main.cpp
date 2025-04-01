@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	// raw_pointer();
+	raw_pointer();
 	// stduniqueptr();
 	// sharingptr();
 	// weakptr();

@@ -9,7 +9,6 @@ class backtrace;
 
 // #define EnterFn             backtrace b1(__PRETTY_FUNCTION__)
 #define EnterFn backtrace b1(__FUNCTION__)
-
 #define ExitFn b1.exit()
 #define PRINT_BACKtrace b1.print()
 #define CLEAR_QUEUE b1.clear_queue()

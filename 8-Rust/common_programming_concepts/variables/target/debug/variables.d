@@ -1,0 +1,1 @@
+/home/abdallah/Documents/Github/Embedded_Linux_Diploma/8-Rust/common_programming_concepts/variables/target/debug/variables: /home/abdallah/Documents/Github/Embedded_Linux_Diploma/8-Rust/common_programming_concepts/variables/src/main.rs

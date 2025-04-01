@@ -1,6 +1,8 @@
 #include <iostream>
 #include <algorithm>
 #include <list>
+#include <vector>
+
 int main(int argc, const char **argv)
 {
     // find with single element

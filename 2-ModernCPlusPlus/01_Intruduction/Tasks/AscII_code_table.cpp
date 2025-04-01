@@ -3,14 +3,12 @@
 
 int main(int argc, const char **argv)
 {
-  char a;
   std::cout << "  ASCII Code Table :" << std::endl;
   std::cout << "+---------+---------+" << std::endl;
   std::cout << "|   Char  |   ASCII |" << std::endl;
   std::cout << "+---------+---------+" << std::endl;
   for (int i = 0; i < 127; i++)
   {
-    a = i;
     if (i < 10)
     {
       std::cout << "|         |   " << i << "     |" << std::endl;

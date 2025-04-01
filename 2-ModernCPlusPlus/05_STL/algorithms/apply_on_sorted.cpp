@@ -1,5 +1,6 @@
 #include <iostream>
 #include <algorithm>
+#include <vector>
 
 int main(int argc, char **argv)
 {
@@ -25,8 +26,11 @@ int main(int argc, char **argv)
     std::vector<int> v4{1, 2, 3, 3, 3, 4, 5, 6, 6, 6, 7, 8, 9};
 
     auto f4 = std::equal_range(v4.begin(), v4.end(), 3);
-    std::cout << *f4.first << std::endl;  // 3
-    std::cout << *f4.second << std::endl; // 4
+    std::cout << std::distance(v4.begin(), f4.first) << std::endl;  // 3
+    std::cout << std::distance(v4.begin(), f4.second) << std::endl; // 4
+
+    std::cout << "First occurrence of 3 at index: " << std::distance(v4.begin(), f4.first) << '\n';
+    std::cout << "Last occurrence of 3 at index: " << std::distance(v4.begin(), f4.second) << '\n';
 
     std::cout << *(std::equal_range(v4.begin(), v4.end(), 5)).first << std::endl;  // 5
     std::cout << *(std::equal_range(v4.begin(), v4.end(), 5)).second << std::endl; // 6

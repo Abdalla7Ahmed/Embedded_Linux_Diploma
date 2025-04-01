@@ -1,8 +1,7 @@
-#include"header.hpp"
-
+#include "header.hpp"
 
 inline int retsum(int x, int y)
-	{
+{
 	return x + y;
 }
 void Inline_Function_test(void)
@@ -35,7 +34,7 @@ void Inline_Function_test(void)
 		� etc
 	� Different compilers have different rules
 	� Modern compilers may automatically inline even non-inline functions
-	� Excessive inlining may increase binary size	
+	� Excessive inlining may increase binary size
 	*/
 
 	/*
@@ -53,6 +52,4 @@ void Inline_Function_test(void)
 		� Can have multiple lines of code
 		� Class member functions can be inline
 	*/
-
-
 }

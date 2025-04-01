@@ -58,7 +58,7 @@ void operate_uniqueptr(int value)
 	p.reset(new Integer{});
 	*p = Integer{__LINE__};
 	Display_uniqueptr(p.get());
-	// store(p); // error because we copy the unique pointer in the store function
+	// store(p); // error because we copy the unique pointer in the store function copy constructor is deleted in the unique function pointer
 	// store(std::move(p));  // move allowed
 	// std::cout << p->GetValue() << std::endl;// we can't use the p pointer after moving it(runtime error)
 	//  instade this we can initialize the function store with reference

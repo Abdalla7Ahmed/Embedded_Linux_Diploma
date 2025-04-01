@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 #include <algorithm>
 
 unsigned long long factorial(unsigned int n)

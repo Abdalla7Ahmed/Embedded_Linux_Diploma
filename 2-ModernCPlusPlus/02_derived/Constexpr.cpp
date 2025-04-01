@@ -1,4 +1,4 @@
-#include"header.hpp"
+#include "header.hpp"
 
 constexpr int GetNumber(void)
 {
@@ -11,13 +11,13 @@ constexpr int Add(int x, int y)
 }
 
 constexpr int GetMax(int x, int y)
-{ 
+{
 	if (x > y)
 	{
 		return x;
 	}
-	return y;        // in c++17 it is allowed to constexpr function contain more han one line
-	//return (x > y) ? x : y;
+	return y; // in c++17 it is allowed to constexpr function contain more han one line
+			  // return (x > y) ? x : y;
 }
 
 constexpr int GetRandom(void)
@@ -29,7 +29,7 @@ void Constant_expressions(void)
 {
 
 	constexpr int x1 = 5;
-	int arr1[x1]{ 1,2,3,4, 5};          // allowd becasue the constexpr combuted at compile time 
+	int arr1[x1]{1, 2, 3, 4, 5}; // allowd becasue the constexpr combuted at compile time
 
 	// behaves as constexpr function (combuted at compile time)
 	constexpr int x2 = GetNumber();
@@ -39,24 +39,23 @@ void Constant_expressions(void)
 	const int x3 = GetNumber();
 	int arr3[x3]{};
 
-	// behaves as normal function(combuted at run time)
+	// behaves as constexpr function
 	int x4 = GetNumber();
 
 	// behaves as constexpr function
 	constexpr int x5 = Add(5, 6);
 
-	// error because x4 is not combuted at compile time 
-	//constexpr int x6 = Add(x4, 6);
-	const int x7{ 0 };
-	constexpr int x8 = Add(x7, 6);			// x7 is combuted at compile time 
-
+	// error because x4 is not combuted at compile time
+	// constexpr int x6 = Add(x4, 6);
+	const int x7{0};
+	constexpr int x8 = Add(x7, 6); // x7 is combuted at compile time
 
 	/*
-	constexpr expression function rules 
+	constexpr expression function rules
 	1. should access and return	literal types only (void ,scailer types(int , float , char ) , reference ,...)
 	2. should contain only single line statement that should be return statement
 	3.in c++17 it support more than one line in constexpr function
-	
+
 	*/
 	/*
 	const vs constexpr
@@ -67,13 +66,9 @@ void Constant_expressions(void)
 	� Use constexpr to create expressions that can be evaluated at compile time
 	*/
 
-	constexpr int XYZ = GetMax(10,20);
-	std::cout<<"XYZ: "<<XYZ<<std::endl;      // 20 
-	// g++ -std=c++11 main.cpp Constexpr.cpp  ---> error in c++11 
+	constexpr int XYZ = GetMax(10, 20);
+	std::cout << "XYZ: " << XYZ << std::endl; // 20
+											  // g++ -std=c++11 main.cpp Constexpr.cpp  ---> error in c++11
 
-
-
-	//constexpr int rand = GetRandom();      // error because the random function is computed during runtime 
-
+	// constexpr int rand = GetRandom();      // error because the random function is computed during runtime
 }
-
